@@ -130,7 +130,9 @@ $(document).ready(function() {
   ];
 
   for (var i = 0; i < vehicleArray.length; i++) {
-    $('.contentContainer').append('<div class="vehicleContainer"><div class="leftSpanColumn"><a href="https://pictures.dealer.com/ramseyvolvovcna/d042e4bf0a0e0acc40518cc59c6e81e7.pdf" target="_blank" class="volvo cpo download"><img src="inc/cpo.jpg" class="cpoImg" alt="cpo image" /></a><img src="inc/'
+    $('.contentContainer').append('<div class="vehicleContainer"><div class="leftSpanColumn"><h1 class="vehicleTitle">'
+    + vehicleArray[i][1] + '</h1><h1 class="price"><sup>$</sup>'
+    + vehicleArray[i][3] + '</h1><a href="https://pictures.dealer.com/ramseyvolvovcna/d042e4bf0a0e0acc40518cc59c6e81e7.pdf" target="_blank" class="volvo cpo download"><img src="inc/cpo.jpg" class="cpoImg" alt="cpo image" /></a><img src="inc/'
     + vehicleArray[i][0] + '/'
     + vehicleArray[i][0] + '_1.jpg" name="mainVehicleImg" alt="Vehicle Image" class="mainImg ' + vehicleArray[i][0] + ' primary mainImg1"><img src="inc/'
     + vehicleArray[i][0] + '/'
@@ -154,9 +156,7 @@ $(document).ready(function() {
     + vehicleArray[i][0] + '/'
     + vehicleArray[i][0] + '_5.jpg" alt="supporting image" class="supImg supImg5"><img src="inc/'
     + vehicleArray[i][0] + '/'
-    + vehicleArray[i][0] + '_6.jpg" alt="supporting image" class="supImg supImg6"></div></div><div class="rightSpanColumn"><h1 class="vehicleTitle">'
-    + vehicleArray[i][1] + '</h1><h1 class="price"><sup>$</sup>'
-    + vehicleArray[i][3] + '</h1><ul><li class="mileage"><strong>Mileage:</strong> '
+    + vehicleArray[i][0] + '_6.jpg" alt="supporting image" class="supImg supImg6"></div></div><div class="rightSpanColumn"><ul><li class="mileage"><strong>Mileage:</strong> '
     + vehicleArray[i][4] + '</li><li class="extColor"><strong>Color:</strong> '
     + vehicleArray[i][6] + '</li><li class="engineType"><strong>Engine:</strong> '
     + vehicleArray[i][6] + '</li><li class="mpg"><strong>MPG:</strong> '

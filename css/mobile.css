@@ -27,14 +27,14 @@ li {
   padding: 0px 0 0 0px; }
 
 .vehicleContainer {
-  width: 285px;
+  width: 283px;
   margin: 0px 0 100px 0;
   border: 1px solid #dddddd; }
 
 .leftSpanColumn {
   margin: 0;
   padding: 0;
-  width: 288px;
+  width: 283px;
   display: block; }
 
 .rightSpanColumn {
@@ -45,7 +45,7 @@ li {
   display: block;
   vertical-align: top;
   text-align: right;
-  width: 285px; }
+  width: 283px; }
 
 h1 {
   line-height: 1;
@@ -74,19 +74,19 @@ h4 {
   font-weight: normal; }
 
 .mainImg {
-  width: 274px;
+  width: 270px;
   display: block;
   margin: 5px; }
 
 .supImg {
-  width: 83px;
+  width: 80px;
   margin: 3px 5px; }
 
 .vehicleCTA {
   vertical-align: bottom;
   margin: 0 0 10px 10px;
   display: block;
-  width: 265px;
+  width: 260px;
   padding: 15px 0;
   font-size: 20px;
   background-color: #033057;

@@ -46,15 +46,6 @@ $(document).ready(function() {
     'White',
     '20 city/29 hwy'],
 
-    ['VOU1630',
-    '2017 Volvo S60 T5 AWD',
-    'http://www.volvocarsramsey.com/used/Volvo/2017-Volvo-S60-ramsey-nj-7de0a7d00a0e0ae8294096d1848e8485.htm',
-    '29,900',
-    '8,565',
-    'Drive-E 2.0L I4 16V Turbocharged',
-    'Black',
-    '23 city/31  hwy'],
-
     ['VOU1643',
     '2017 Volvo S60 T5 AWD',
     'http://www.volvocarsramsey.com/used/Volvo/2017-Volvo-S60-ramsey-nj-7de0aec70a0e0ae8294096d1dd8123a4.htm',
@@ -117,6 +108,7 @@ $(document).ready(function() {
     'Drive-E 2.0L I4 16V Turbocharged',
     'Black',
     '20 city/ 29 hwy'],
+    
 
     ['VOU1639',
     '2016 Volvo V60 T5 Premier',
